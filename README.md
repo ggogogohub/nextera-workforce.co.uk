@@ -168,7 +168,7 @@ npm run test
 docker-compose up --build
 
 # Access services
-# Frontend: http://localhost:3000
+# Frontend: http://localhost:8080
 # Backend: http://localhost:8000
 # MongoDB: localhost:27017
 ```
@@ -233,7 +233,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Documentation**: See individual README files in each directory
 - **Issues**: GitHub Issues tracker
-- **Email**: support@nextera-workforce.com
+- **Website**: nextera-workforce.co.uk
 
 ## 🔄 Version History
 
