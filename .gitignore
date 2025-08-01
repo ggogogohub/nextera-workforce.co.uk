@@ -10,6 +10,7 @@ lerna-debug.log*
 # Reports
 Thakur_Sonu_B00918334.txt
 FEATURE_CHECKLIST.md
+.gitignore
 
 # Local env files
 .env
