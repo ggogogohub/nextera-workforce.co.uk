@@ -82,7 +82,7 @@ NextEra Workforce is a full-stack solution designed for modern businesses to eff
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ggogogohub/nextera-workforce.co.uk.git
 cd project_AT3
 ```
 
