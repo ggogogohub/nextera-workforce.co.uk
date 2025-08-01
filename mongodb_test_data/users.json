@@ -1,0 +1,268 @@
+[
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3b1",
+    "email": "admin@company.com",
+    "hashed_password": "$2b$12$d70F9c9/l9y7QB0pJqUKbOZinMbf5nZD2NufFsd8VuJJvjGmLMBHq",
+    "firstName": "Admin",
+    "lastName": "User",
+    "role": "administrator",
+    "department": "Management",
+    "skills": ["leadership", "management", "planning"],
+    "phoneNumber": "+1-555-0101",
+    "emergencyContact": {
+      "name": "Emergency Admin",
+      "relationship": "Spouse",
+      "phoneNumber": "+1-555-0102"
+    },
+    "isActive": true,
+    "createdAt": "2024-01-01T08:00:00.000Z",
+    "updatedAt": "2024-01-15T10:30:00.000Z",
+    "lastLogin": "2024-01-15T09:00:00.000Z",
+    "availability": [
+      {
+        "dayOfWeek": 1,
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 2,
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 3,
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 4,
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 5,
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "email": "manager@company.com",
+    "hashed_password": "$2b$12$e89EXEUSvN07VFrBVlek4ufe/FxsUpMP1roQ8A34cJYQOOWPL874q",
+    "firstName": "John",
+    "lastName": "Manager",
+    "role": "manager",
+    "department": "Operations",
+    "skills": ["team-management", "scheduling", "communication"],
+    "phoneNumber": "+1-555-0201",
+    "emergencyContact": {
+      "name": "Jane Manager",
+      "relationship": "Spouse",
+      "phoneNumber": "+1-555-0202"
+    },
+    "isActive": true,
+    "createdAt": "2024-01-02T08:00:00.000Z",
+    "updatedAt": "2024-01-15T11:00:00.000Z",
+    "lastLogin": "2024-01-15T08:30:00.000Z",
+    "availability": [
+      {
+        "dayOfWeek": 1,
+        "startTime": "07:00",
+        "endTime": "18:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 2,
+        "startTime": "07:00",
+        "endTime": "18:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 3,
+        "startTime": "07:00",
+        "endTime": "18:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 4,
+        "startTime": "07:00",
+        "endTime": "18:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 5,
+        "startTime": "07:00",
+        "endTime": "18:00",
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3b3",
+    "email": "employee1@company.com",
+    "hashed_password": "$2b$12$I8eHU9rGh0C4S64v7.VWXutiRjtBxAKagyafK1M95Kp.YPadJ1yHm",
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "role": "employee",
+    "department": "Sales",
+    "skills": ["customer-service", "sales", "communication"],
+    "phoneNumber": "+1-555-0301",
+    "emergencyContact": {
+      "name": "Bob Johnson",
+      "relationship": "Brother",
+      "phoneNumber": "+1-555-0302"
+    },
+    "isActive": true,
+    "createdAt": "2024-01-03T08:00:00.000Z",
+    "updatedAt": "2024-01-14T16:00:00.000Z",
+    "lastLogin": "2024-01-14T09:15:00.000Z",
+    "availability": [
+      {
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 6,
+        "startTime": "10:00",
+        "endTime": "14:00",
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3b4",
+    "email": "employee2@company.com",
+    "hashed_password": "$2b$12$I8eHU9rGh0C4S64v7.VWXutiRjtBxAKagyafK1M95Kp.YPadJ1yHm",
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "role": "employee",
+    "department": "Support",
+    "skills": ["technical-support", "troubleshooting", "documentation"],
+    "phoneNumber": "+1-555-0401",
+    "emergencyContact": {
+      "name": "Carol Smith",
+      "relationship": "Wife",
+      "phoneNumber": "+1-555-0402"
+    },
+    "isActive": true,
+    "createdAt": "2024-01-04T08:00:00.000Z",
+    "updatedAt": "2024-01-13T14:30:00.000Z",
+    "lastLogin": "2024-01-13T08:45:00.000Z",
+    "availability": [
+      {
+        "dayOfWeek": 1,
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 2,
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 3,
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 4,
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 5,
+        "startTime": "08:00",
+        "endTime": "16:00",
+        "isAvailable": true
+      }
+    ]
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3b5",
+    "email": "test@example.com",
+    "hashed_password": "$2b$12$F.9JhP3q1AhDWNzdA5qbm.2OGZIdRGHXi.gQ81Sy69TCBqoiCi7MK",
+    "firstName": "Test",
+    "lastName": "User",
+    "role": "employee",
+    "department": "Testing",
+    "skills": ["testing", "qa", "documentation"],
+    "phoneNumber": "+1-555-0501",
+    "emergencyContact": {
+      "name": "Emergency Contact",
+      "relationship": "Friend",
+      "phoneNumber": "+1-555-0502"
+    },
+    "isActive": true,
+    "createdAt": "2024-01-05T08:00:00.000Z",
+    "updatedAt": "2024-01-15T12:00:00.000Z",
+    "lastLogin": "2024-01-15T10:00:00.000Z",
+    "availability": [
+      {
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      },
+      {
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "isAvailable": true
+      }
+    ]
+  }
+]

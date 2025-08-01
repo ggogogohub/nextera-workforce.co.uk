@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3g1",
+    "name": "Sales Team",
+    "description": "Responsible for customer acquisition and sales operations",
+    "department": "Sales",
+    "managerId": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "members": [
+      "60f7b3b3b3b3b3b3b3b3b3b3"
+    ],
+    "createdAt": "2024-01-01T08:00:00.000Z",
+    "updatedAt": "2024-01-10T10:00:00.000Z"
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3g2",
+    "name": "Support Team",
+    "description": "Technical support and customer service operations",
+    "department": "Support",
+    "managerId": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "members": [
+      "60f7b3b3b3b3b3b3b3b3b3b4"
+    ],
+    "createdAt": "2024-01-01T08:00:00.000Z",
+    "updatedAt": "2024-01-08T14:30:00.000Z"
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3g3",
+    "name": "Quality Assurance",
+    "description": "Product testing and quality control",
+    "department": "Testing",
+    "managerId": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "members": [
+      "60f7b3b3b3b3b3b3b3b3b3b5"
+    ],
+    "createdAt": "2024-01-01T08:00:00.000Z",
+    "updatedAt": "2024-01-05T16:00:00.000Z"
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3g4",
+    "name": "Management Team",
+    "description": "Executive and management operations",
+    "department": "Management",
+    "managerId": "60f7b3b3b3b3b3b3b3b3b3b1",
+    "members": [
+      "60f7b3b3b3b3b3b3b3b3b3b2"
+    ],
+    "createdAt": "2024-01-01T08:00:00.000Z",
+    "updatedAt": "2024-01-01T08:00:00.000Z"
+  }
+]

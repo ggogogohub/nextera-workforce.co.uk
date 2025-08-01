@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e1",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b3",
+    "content": "Please review your schedule for next week and confirm availability.",
+    "timestamp": "2024-01-15T09:30:00.000Z",
+    "read": false
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e2",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b3",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "content": "Schedule confirmed. I'm available for all assigned shifts.",
+    "timestamp": "2024-01-15T10:15:00.000Z",
+    "read": true
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e3",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b1",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "content": "Team meeting scheduled for Friday at 2 PM. Please ensure all staff are informed.",
+    "timestamp": "2024-01-15T11:00:00.000Z",
+    "read": true
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e4",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b4",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "content": "I need to request time off for a medical appointment on January 25th.",
+    "timestamp": "2024-01-15T12:30:00.000Z",
+    "read": false
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e5",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b4",
+    "content": "Time off request received. Please submit it through the official system for approval.",
+    "timestamp": "2024-01-15T13:00:00.000Z",
+    "read": false
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e6",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b5",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "content": "Testing department needs additional coverage next week. Can we discuss scheduling?",
+    "timestamp": "2024-01-15T14:45:00.000Z",
+    "read": false
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e7",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b1",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b3",
+    "content": "Great work on the client presentation today. Keep up the excellent performance!",
+    "timestamp": "2024-01-15T16:20:00.000Z",
+    "read": false
+  },
+  {
+    "_id": "60f7b3b3b3b3b3b3b3b3b3e8",
+    "sender_id": "60f7b3b3b3b3b3b3b3b3b3b2",
+    "recipient_id": "60f7b3b3b3b3b3b3b3b3b3b5",
+    "content": "Let's schedule a meeting to discuss the testing coverage requirements.",
+    "timestamp": "2024-01-15T17:00:00.000Z",
+    "read": false
+  }
+]

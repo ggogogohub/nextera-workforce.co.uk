@@ -1,0 +1,356 @@
+
+{
+  "users": [
+    {
+      "_id": "admin_001",
+      "email": "admin@nextera.com",
+      "firstName": "System",
+      "lastName": "Administrator",
+      "role": "administrator",
+      "department": "IT",
+      "skills": ["System Administration", "User Management", "Security"],
+      "phoneNumber": "+1-555-0101",
+      "emergencyContact": {
+        "name": "Emergency Services",
+        "relationship": "Emergency",
+        "phoneNumber": "911"
+      },
+      "isActive": true,
+      "passwordHash": "$2b$12$example_hash_for_admin123",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "availability": [
+        {"dayOfWeek": 1, "startTime": "08:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 2, "startTime": "08:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 3, "startTime": "08:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 4, "startTime": "08:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 5, "startTime": "08:00", "endTime": "17:00", "isAvailable": true}
+      ]
+    },
+    {
+      "_id": "manager_001",
+      "email": "manager@nextera.com",
+      "firstName": "John",
+      "lastName": "Manager",
+      "role": "manager",
+      "department": "Operations",
+      "skills": ["Team Management", "Scheduling", "Customer Service"],
+      "phoneNumber": "+1-555-0102",
+      "emergencyContact": {
+        "name": "Jane Manager",
+        "relationship": "Spouse",
+        "phoneNumber": "+1-555-0202"
+      },
+      "isActive": true,
+      "passwordHash": "$2b$12$example_hash_for_manager123",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "availability": [
+        {"dayOfWeek": 1, "startTime": "07:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 2, "startTime": "07:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 3, "startTime": "07:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 4, "startTime": "07:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 5, "startTime": "07:00", "endTime": "18:00", "isAvailable": true}
+      ]
+    },
+    {
+      "_id": "employee_001",
+      "email": "employee@nextera.com",
+      "firstName": "Sarah",
+      "lastName": "Employee",
+      "role": "employee",
+      "department": "Customer Service",
+      "skills": ["Customer Support", "Phone Handling", "Problem Solving"],
+      "phoneNumber": "+1-555-0103",
+      "emergencyContact": {
+        "name": "Mike Employee",
+        "relationship": "Brother",
+        "phoneNumber": "+1-555-0203"
+      },
+      "isActive": true,
+      "passwordHash": "$2b$12$example_hash_for_employee123",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "availability": [
+        {"dayOfWeek": 1, "startTime": "09:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 2, "startTime": "09:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 3, "startTime": "09:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 4, "startTime": "09:00", "endTime": "17:00", "isAvailable": true},
+        {"dayOfWeek": 5, "startTime": "09:00", "endTime": "17:00", "isAvailable": true}
+      ]
+    },
+    {
+      "_id": "employee_002",
+      "email": "mike.davis@nextera.com",
+      "firstName": "Mike",
+      "lastName": "Davis",
+      "role": "employee",
+      "department": "Sales",
+      "skills": ["Sales", "Product Knowledge", "Customer Relations"],
+      "phoneNumber": "+1-555-0104",
+      "emergencyContact": {
+        "name": "Lisa Davis",
+        "relationship": "Wife",
+        "phoneNumber": "+1-555-0204"
+      },
+      "isActive": true,
+      "passwordHash": "$2b$12$example_hash_for_mike123",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "availability": [
+        {"dayOfWeek": 1, "startTime": "10:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 2, "startTime": "10:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 3, "startTime": "10:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 4, "startTime": "10:00", "endTime": "18:00", "isAvailable": true},
+        {"dayOfWeek": 5, "startTime": "10:00", "endTime": "18:00", "isAvailable": true}
+      ]
+    },
+    {
+      "_id": "employee_003",
+      "email": "emma.wilson@nextera.com",
+      "firstName": "Emma",
+      "lastName": "Wilson",
+      "role": "employee",
+      "department": "Operations",
+      "skills": ["Inventory Management", "Quality Control", "Data Entry"],
+      "phoneNumber": "+1-555-0105",
+      "emergencyContact": {
+        "name": "Tom Wilson",
+        "relationship": "Father",
+        "phoneNumber": "+1-555-0205"
+      },
+      "isActive": true,
+      "passwordHash": "$2b$12$example_hash_for_emma123",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "availability": [
+        {"dayOfWeek": 1, "startTime": "08:00", "endTime": "16:00", "isAvailable": true},
+        {"dayOfWeek": 2, "startTime": "08:00", "endTime": "16:00", "isAvailable": true},
+        {"dayOfWeek": 3, "startTime": "08:00", "endTime": "16:00", "isAvailable": true},
+        {"dayOfWeek": 4, "startTime": "08:00", "endTime": "16:00", "isAvailable": true},
+        {"dayOfWeek": 5, "startTime": "08:00", "endTime": "16:00", "isAvailable": true}
+      ]
+    }
+  ],
+  "schedules": [
+    {
+      "_id": "schedule_001",
+      "employeeId": "employee_001",
+      "date": "2024-01-22",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "location": "Main Office",
+      "role": "Customer Service",
+      "department": "Customer Service",
+      "status": "scheduled",
+      "notes": "Regular shift",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    },
+    {
+      "_id": "schedule_002",
+      "employeeId": "employee_002",
+      "date": "2024-01-22",
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "location": "Store #1",
+      "role": "Sales Associate",
+      "department": "Sales",
+      "status": "confirmed",
+      "notes": "Peak hours coverage",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    },
+    {
+      "_id": "schedule_003",
+      "employeeId": "employee_003",
+      "date": "2024-01-22",
+      "startTime": "08:00",
+      "endTime": "16:00",
+      "location": "Warehouse",
+      "role": "Inventory Specialist",
+      "department": "Operations",
+      "status": "scheduled",
+      "notes": "Morning inventory count",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    },
+    {
+      "_id": "schedule_004",
+      "employeeId": "employee_001",
+      "date": "2024-01-23",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "location": "Main Office",
+      "role": "Customer Service",
+      "department": "Customer Service",
+      "status": "scheduled",
+      "notes": "Regular shift",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    },
+    {
+      "_id": "schedule_005",
+      "employeeId": "employee_002",
+      "date": "2024-01-23",
+      "startTime": "13:00",
+      "endTime": "21:00",
+      "location": "Store #2",
+      "role": "Sales Associate",
+      "department": "Sales",
+      "status": "scheduled",
+      "notes": "Evening shift",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z"
+    }
+  ],
+  "timeOffRequests": [
+    {
+      "_id": "timeoff_001",
+      "employeeId": "employee_001",
+      "startDate": "2024-02-15",
+      "endDate": "2024-02-20",
+      "reason": "Family vacation",
+      "type": "vacation",
+      "status": "pending",
+      "submittedAt": "2024-01-20T10:00:00Z",
+      "totalDays": 4
+    },
+    {
+      "_id": "timeoff_002",
+      "employeeId": "employee_002",
+      "startDate": "2024-01-25",
+      "endDate": "2024-01-25",
+      "reason": "Doctor appointment",
+      "type": "personal",
+      "status": "approved",
+      "submittedAt": "2024-01-15T09:00:00Z",
+      "reviewedAt": "2024-01-16T14:30:00Z",
+      "reviewedBy": "manager_001",
+      "totalDays": 1
+    },
+    {
+      "_id": "timeoff_003",
+      "employeeId": "employee_003",
+      "startDate": "2024-02-01",
+      "endDate": "2024-02-02",
+      "reason": "Sick leave",
+      "type": "sick",
+      "status": "approved",
+      "submittedAt": "2024-01-18T11:00:00Z",
+      "reviewedAt": "2024-01-19T16:00:00Z",
+      "reviewedBy": "manager_001",
+      "totalDays": 2
+    }
+  ],
+  "messages": [
+    {
+      "_id": "message_001",
+      "senderId": "manager_001",
+      "recipientId": "employee_001",
+      "subject": "Schedule Update for Next Week",
+      "content": "Hi Sarah, your schedule for next week has been updated. Please review the changes in the system and let me know if you have any questions.",
+      "type": "direct",
+      "priority": "normal",
+      "isRead": false,
+      "sentAt": "2024-01-20T14:30:00Z",
+      "requiresAcknowledgment": false
+    },
+    {
+      "_id": "message_002",
+      "senderId": "admin_001",
+      "subject": "Team Meeting Tomorrow",
+      "content": "Reminder: We have our monthly team meeting tomorrow at 10 AM in the main conference room. Please come prepared with your monthly reports.",
+      "type": "announcement",
+      "priority": "high",
+      "isRead": false,
+      "sentAt": "2024-01-20T09:15:00Z",
+      "requiresAcknowledgment": true
+    },
+    {
+      "_id": "message_003",
+      "senderId": "employee_002",
+      "recipientId": "manager_001",
+      "subject": "Shift Coverage Request",
+      "content": "Hi John, I have a family emergency and need someone to cover my Friday evening shift. Could you please help me find coverage?",
+      "type": "direct",
+      "priority": "high",
+      "isRead": true,
+      "sentAt": "2024-01-19T16:45:00Z",
+      "requiresAcknowledgment": false
+    }
+  ],
+  "shiftSwapRequests": [
+    {
+      "_id": "swap_001",
+      "requesterId": "employee_001",
+      "targetEmployeeId": "employee_002",
+      "originalShiftId": "schedule_001",
+      "reason": "Personal appointment",
+      "status": "pending",
+      "submittedAt": "2024-01-20T12:00:00Z"
+    }
+  ],
+  "schedulingConstraints": [
+    {
+      "_id": "constraints_001",
+      "name": "Default Constraints",
+      "minStaffing": {
+        "Customer Service": 2,
+        "Sales": 1,
+        "Operations": 1
+      },
+      "maxStaffing": {
+        "Customer Service": 5,
+        "Sales": 3,
+        "Operations": 3
+      },
+      "operatingHours": {
+        "1": {"open": "08:00", "close": "20:00", "isOpen": true},
+        "2": {"open": "08:00", "close": "20:00", "isOpen": true},
+        "3": {"open": "08:00", "close": "20:00", "isOpen": true},
+        "4": {"open": "08:00", "close": "20:00", "isOpen": true},
+        "5": {"open": "08:00", "close": "20:00", "isOpen": true},
+        "6": {"open": "10:00", "close": "18:00", "isOpen": true},
+        "0": {"open": "12:00", "close": "17:00", "isOpen": true}
+      },
+      "skillRequirements": {
+        "Customer Service": ["Customer Support", "Phone Handling"],
+        "Sales Associate": ["Sales", "Product Knowledge"],
+        "Inventory Specialist": ["Inventory Management"]
+      },
+      "maxConsecutiveDays": 6,
+      "minRestHours": 8,
+      "maxHoursPerWeek": 40,
+      "isDefault": true,
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "_id": "activity_001",
+      "userId": "admin_001",
+      "action": "login",
+      "details": "User logged in successfully",
+      "timestamp": "2024-01-20T08:00:00Z",
+      "ipAddress": "192.168.1.100"
+    },
+    {
+      "_id": "activity_002",
+      "userId": "manager_001",
+      "action": "schedule_created",
+      "details": "Created schedule for week of 2024-01-22",
+      "timestamp": "2024-01-20T10:00:00Z",
+      "ipAddress": "192.168.1.101"
+    },
+    {
+      "_id": "activity_003",
+      "userId": "employee_001",
+      "action": "timeoff_requested",
+      "details": "Requested time off for 2024-02-15 to 2024-02-20",
+      "timestamp": "2024-01-20T10:00:00Z",
+      "ipAddress": "192.168.1.102"
+    }
+  ]
+}

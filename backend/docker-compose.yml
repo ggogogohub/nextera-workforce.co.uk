@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  api:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+      - redis
+  mongo:
+    image: mongo:6
+    volumes:
+      - mongo-data:/data/db
+  redis:
+    image: redis:7
+volumes:
+  mongo-data:
