@@ -12,7 +12,7 @@ NextEra Workforce is a full-stack solution designed for modern businesses to eff
 - **Technology**: React 18 + TypeScript + Vite
 - **UI Framework**: shadcn/ui + Tailwind CSS
 - **Location**: `/frontend`
-- **Port**: 5173 (development)
+- **Port**: 8080 (development)
 
 ### Backend
 - **Technology**: FastAPI + Python
